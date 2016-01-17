@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Figur.cs" />
+    <Compile Include="TrekantVinkelret.cs" />
+    <Compile Include="Trekant.cs" />
     <Compile Include="Firkant.cs" />
     <Compile Include="Kvardrat.cs" />
     <Compile Include="Program.cs" />
