@@ -3,7 +3,7 @@
     public class Kvardrat : Firkant
     {
         public decimal Sidelængde { get; set; }
-        public Kvardrat(decimal sidelængde)
+        public Kvardrat(string navn, decimal sidelængde):base(navn)
         {
             Sidelængde = sidelængde;
         }

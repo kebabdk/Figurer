@@ -8,6 +8,6 @@ namespace Dyhrman.Figurer
 {
     public abstract class Firkant : Figur
     {
-       
+       public Firkant(string navn) : base(navn){}
     }
 }

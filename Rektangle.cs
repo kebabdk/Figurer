@@ -5,7 +5,7 @@ namespace Dyhrman.Figurer
     {
         public decimal SidelængdeA { get; set; }
         public decimal SidelængdeB { get; set; }
-        public Rektangle(decimal sidelængdeA, decimal sidelængdeB)
+        public Rektangle(string navn, decimal sidelængdeA, decimal sidelængdeB):base(navn)
         {
             SidelængdeA = sidelængdeA;
             SidelængdeB = sidelængdeB;

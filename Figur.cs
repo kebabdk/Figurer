@@ -4,8 +4,11 @@ namespace Dyhrman.Figurer
 {
     public abstract class Figur
     {
-        public Figur()
+        public string Navn { get; private set; }
+
+        public Figur(string navn)
         {
+            Navn = navn;
         }
         public abstract decimal Omkreds();
 
