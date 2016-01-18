@@ -11,13 +11,10 @@ namespace Dyhrman.Figurer
         static void Main(string[] args)
         {
             var figurliste = new List<Figur>();
-            var figur1 = new Kvardrat("Kvardrat 1",10);
-            var figur2 = new Rektangle("Rektangle 1",10, 20);
-            var figur3 = new TrekantVinkelret("Vinkelret 1", 10, 20);
-
-            figurliste.Add(figur1);
-            figurliste.Add(figur2);
-            figurliste.Add(figur3);
+            figurliste.Add(new Kvardrat("Kvardrat 1", 10));
+            figurliste.Add(new Rektangle("Rektangle 1", 10, 20));
+            figurliste.Add(new TrekantVinkelret("Vinkelret 1", 10, 20));
+            figurliste.Add(new TrekantLigebenet("Ligebenet 1", 15, 20));
 
             foreach (var figur in figurliste)
             {
